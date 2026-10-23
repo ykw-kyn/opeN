@@ -1,0 +1,7 @@
+python-dotenv
+asyncpg
+tavily-python
+openai
+fastapi
+uvicorn
+pydantic

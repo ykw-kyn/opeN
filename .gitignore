@@ -1,0 +1,61 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env*
+*.env
+**/.env
+**/.env*
+worker/.env
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+
+# Internal Project & Agent Working Documents
+GEMINI.md
+DECISIONS.md
+PROJECT_CONTEXT.md
+TODO.md
+
+# Conversation Archive & Internal Historical Transcripts
+conversation-archive/
+conversation-archive/**
+
+# Python Virtual Environments
+venv/
+**/venv/
+worker/venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Node.js & Next.js Build Artifacts
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+
+# IDE, Editor & OS Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & Temporary Scratch Scripts
+*.log
+logs/
+scratch/
+**/scratch/
